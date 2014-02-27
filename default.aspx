@@ -76,7 +76,7 @@
 
         <br /><br />
         
-        <asp:GridView ID="loanGridView" runat="server" />
+        <asp:GridView ID="loanGridView" runat="server" CssClass="grid-view" AlternatingRowStyle-CssClass="alternate" />
 
         <% End If%>
         
