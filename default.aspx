@@ -21,14 +21,32 @@
      
         <span class="auto-style1">*</span>Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
                   
+            <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+            ControlToValidate="tbLoanAmt"
+             ErrorMessage="Loan Amount is a required field."
+              ForeColor="Red">
+            </asp:RequiredFieldValidator>
+
         <br /><br />      
         
         <span class="auto-style1">*</span>Annual Interest %: <asp:TextBox ID="tbAnnualInterest" runat="server" ></asp:TextBox>
         
+        <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+            ControlToValidate="tbAnnualInterest"
+             ErrorMessage="Annual Interest is a required field."
+              ForeColor="Red">
+            </asp:RequiredFieldValidator>
+
         <br /><br />
 
         <span class="auto-style1">*</span>Loan Term (Yrs): <asp:TextBox ID="tbLoanTerm" runat="server" ></asp:TextBox>
         
+        <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+            ControlToValidate="tbLoanTerm"
+             ErrorMessage="Loan Term is a required field."
+              ForeColor="Red">
+            </asp:RequiredFieldValidator>
+
         <br /><br />
 
         <asp:Button ID="btnCalcPmt" runat="server" Text="Calculate" Width="85px" />
@@ -42,7 +60,9 @@
         <% If Not IsPostBack Then%>
             <!-- This is the first time the page has loaded. There is nothing to display. -->
 
-        Welcome to our Mortgage Calculator. Please complete the fields above to have your monthly payment and loan repayment schedule calculated for you. <span class="auto-style1">*</span> Required Fields<br />
+        Welcome to our Mortgage Calculator. Please complete the fields above to have your monthly payment and loan repayment schedule calculated for you. <span class="auto-style1">
+        <br />
+        *</span> Required Fields<br />
         <br />
 
         <% Else%>
@@ -55,17 +75,14 @@
             </div>
 
         <br /><br />
-
-        <div id="table">
         
         <asp:GridView ID="loanGridView" runat="server" />
 
         <% End If%>
         
-        </div>
+      
+    </div>
 
-
-        </div>
     </form>
 </body>
 </html>
