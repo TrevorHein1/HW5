@@ -16,7 +16,7 @@
     <form id="form1" runat="server">
     <div>
     
-    <h1> Mortgage Loan Calculator </h1>
+    <h1> $ Mortgage Loan Calculator $ </h1>
         <br />
      
         <span class="auto-style1">*</span>Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
@@ -76,7 +76,7 @@
 
         <br /><br />
         
-        <asp:GridView ID="loanGridView" runat="server" CssClass="grid-view" AlternatingRowStyle-CssClass="alternate" />
+        <asp:GridView ID="loanGridView" runat="server" CssClass="grid-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row"  />
 
         <% End If%>
         

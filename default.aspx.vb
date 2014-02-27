@@ -12,7 +12,6 @@ Partial Class _Default
         Dim loanTerm As Integer
         Dim monthlyPayment As Double
 
-
         'This section is declaring the variables for loan amortization.
         Dim interestPaid As Double
         Dim nBalance As Double

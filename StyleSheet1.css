@@ -8,7 +8,7 @@ body { background-image: url('money.jpg'); padding-top: 100px;
 border-top: solid 15px green; border-bottom: solid 15px green;  }
 
 
-h1 { font-size: 24pt; color: green;
+h1 { font-size: 24pt; color: green; text-align: center; font-family: Kozuka Gothic Pr6N; 
 }
 
 #payment { font-size: 16pt; font-weight: bold; 
@@ -28,6 +28,7 @@ h1 { font-size: 24pt; color: green;
     text-align: center;
     font-family: "Comic Sans MS";
     color: black;
+    
 
 }
 
@@ -52,5 +53,16 @@ h1 { font-size: 24pt; color: green;
 .grid-view .alternate
 {
    background-color: lightgreen;
+
 }
-   
+
+.grid-view .row {
+    background-color: white;
+    }
+
+.grid-view .alternate:hover {
+        background-color: aqua;
+    }
+    .grid-view .row:hover {
+        background-color: aqua;
+    }
