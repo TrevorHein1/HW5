@@ -1,10 +1,14 @@
-﻿body { background-color: black;
+﻿body { background-color: black; padding-top: 100px;
 
 }
 
-#form1 {background: lightgrey; width:800px; margin:auto; padding-top: 100px; padding:75px; border-left: solid 6px yellow; border-right: solid 6px yellow;
-border-top: solid 6px yellow; border-bottom: solid 6px yellow;  }
+#form1 {background: lightgrey; width:1000px; margin:auto; padding-top: 100px; padding:75px; border-left: solid 6px green; border-right: solid 6px green;
+border-top: solid 6px green; border-bottom: solid 6px green;  }
 
 
 h1 { font-size: 16pt;
 }
+
+#payment { font-size: 16pt; font-weight: bold; 
+}
+
