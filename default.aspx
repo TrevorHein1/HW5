@@ -4,14 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-
+    <title> Mortgage Loan Calculator </title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     
-    Mike's Mortgage Calculator
+    <h1> Mortgage Loan Calculator </h1>
         
         <br /><br />
      
@@ -27,9 +27,14 @@
         
         <br /><br />
 
-        <asp:Button ID="btnCalcPmt" runat="server" Text="Calculate" />
+        <asp:Button ID="btnCalcPmt" runat="server" Text="Calculate" Width="85px" />
         
-        <br /><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="ClearButton" runat="server" Text="Clear" Width="85px" />
+        
+        <br />
+        <br />
+        Welcome to our Mortgage Calculator. Please complete the filelds above to have your monthly payment and loan repayment schedule calculated for you.<br /><br />
                 
         Monthly Payment: &nbsp; <asp:Label ID="lblMonthlyPmt" runat="server"></asp:Label>
         

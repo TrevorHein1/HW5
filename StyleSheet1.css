@@ -1,0 +1,10 @@
+﻿body { background-color: black;
+
+}
+
+#form1 {background: lightgrey; width:800px; margin:auto; padding-top: 100px; padding:75px; border-left: solid 6px yellow; border-right: solid 6px yellow;
+border-top: solid 6px yellow; border-bottom: solid 6px yellow;  }
+
+
+h1 { font-size: 16pt;
+}
