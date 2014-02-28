@@ -90,6 +90,7 @@ Partial Class _Default
         tbAnnualInterest.Text = String.Empty
         tbLoanTerm.Text = String.Empty
         loanGridView.DataBind()
+        lblMonthlyPmt.Text = String.Empty
 
     End Sub
 End Class
